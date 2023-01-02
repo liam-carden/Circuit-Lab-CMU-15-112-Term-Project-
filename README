@@ -1,0 +1,12 @@
+Project Name: CircuitLab
+
+Description: A breadboard circuit builder with a UI inspired by MATLAB. Has a section with the circuit board in it and then under that a command line to input commands that are able to add and change components onto the breadboard. The three components currently available are Resistors, Capacitors, and Wires. The builder is able to build a basic series and parallel circuit made up of those components and run an analysis. This analysis can be completed at either t = 0 or t = 5 tao. After anaylsis has been completed the user is able to display information about any component within the circuit and get its voltage, resistance/capacitance, and the current running through it. It is also able to get an analysis of the entire circuit. These displays can then be stored for comparison by the user to other displays. The application also contains four documentation pages toggled by the buttons in the lower right corner to explain the application to users.
+
+How to Run the Project: Simply run the file 'main.py' inorder to run the project. It is important to note that the project is meant to be run in full screen as otherwise some values may not be shown in their entirity (stored values with many decimal points). Although it is meant to be run in full screen the documentation is still designed to be readable in the standard 800 by 800 window.
+
+Libraries Needed: None
+
+Shortcut Commands: Inputing '1' '2' or '3' into the in app command bar as separate commands will place three basic resistors used for simplistic testing. By inputing 'lcarden' as a command a large circuit is brought up which is designed to demonstrate the most complex parts of the simulations analysis when run.
+
+Resistor Image: https://commons.wikimedia.org/wiki/File:Resistor_symbol_America.svg
+Capacitor Image: https://www.electronics-notes.com/articles/analogue_circuits/circuits-symbols-diagrams/capacitors-polar-nonpolar-variable.php
